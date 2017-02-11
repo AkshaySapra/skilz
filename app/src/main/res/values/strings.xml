@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Skilz</string>
     <string-array name="array_skills">
-        <item>Gardening</item>
+        <item>UNDERWATER BASKETWEAVING</item>
         <item>Gardening</item>
         <item>Gardening</item>
         <item>Housekeeping</item>
@@ -10,27 +10,27 @@
         <item>Gardening</item>
         <item>Cooking</item>
         <item>Cleaning</item>
-        <item>Gardening  </item>
+        <item>Language</item>
+        <item>Arduino</item>
+        <item>Coding</item>
+        <item>musical instruments</item>
+        <item>canvas painting</item>
+        <item>Tap Dancing</item>
+        <item>Sports</item>
+        <item>IT Solutions</item>
+        <item>Caligraphy</item>
+        <item>Taxes</item>
         <item>Gardening</item>
         <item>Gardening</item>
         <item>Gardening</item>
+        <item>Rock Climbing</item>
         <item>Gardening</item>
+        <item>Nutrition</item>
+        <item>knitting</item>
         <item>Gardening</item>
+        <item>Pet Sitting</item>
         <item>Gardening</item>
-        <item>Gardening</item>
-        <item>Gardening</item>
-        <item>Gardening</item>
-        <item>Gardening</item>
-        <item>Gardening</item>
-        <item>Gardening</item>
-        <item>Gardening</item>
-        <item>Gardening</item>
-        <item>Gardening</item>
-        <item>Gardening</item>
-        <item>Gardening</item>
-        <item>Gardening</item>
-        <item>Gardening</item>
-        <item>Gardening</item>
+        <item>singing</item>
         <item>Gardening</item>
     </string-array>
     <string name="title_activity_main2">Main2Activity</string>
