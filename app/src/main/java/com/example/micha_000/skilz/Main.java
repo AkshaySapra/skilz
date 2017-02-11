@@ -91,6 +91,9 @@ public class Main extends AppCompatActivity {
                 Intent i = new Intent(getApplicationContext(),settings.class);
                 startActivity(i);
                 return true;
+            case R.id.login:
+                Intent j = new Intent(getApplicationContext(),Login.class);
+                startActivity(j);
             default:
                 return super.onOptionsItemSelected(menuItem);
         }
