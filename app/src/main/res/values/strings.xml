@@ -1,3 +1,37 @@
 <resources>
     <string name="app_name">Skilz</string>
+    <string-array name="array_skills">
+        <item>Gardening</item>
+        <item>Gardening</item>
+        <item>Gardening</item>
+        <item>Housekeeping</item>
+        <item>Gardening</item>
+        <item>Gardening</item>
+        <item>Gardening</item>
+        <item>Cooking</item>
+        <item>Cleaning</item>
+        <item>Gardening  </item>
+        <item>Gardening</item>
+        <item>Gardening</item>
+        <item>Gardening</item>
+        <item>Gardening</item>
+        <item>Gardening</item>
+        <item>Gardening</item>
+        <item>Gardening</item>
+        <item>Gardening</item>
+        <item>Gardening</item>
+        <item>Gardening</item>
+        <item>Gardening</item>
+        <item>Gardening</item>
+        <item>Gardening</item>
+        <item>Gardening</item>
+        <item>Gardening</item>
+        <item>Gardening</item>
+        <item>Gardening</item>
+        <item>Gardening</item>
+        <item>Gardening</item>
+        <item>Gardening</item>
+        <item>Gardening</item>
+    </string-array>
+
 </resources>
