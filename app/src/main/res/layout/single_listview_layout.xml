@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/LikeButton"
+            android:layout_width = "30dp"
+            android:layout_height = "30dp"
+            android:layout_gravity="center|center_horizontal"
+            android:layout_column="1"
+            />
+
+        <ImageView
+            android:id="@+id/User_Picture"
+            android:layout_width = "100dp"
+            android:layout_height = "100dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_column="2"
+            />
+
+
+
+        <TextView
+            android:id="@+id/User_id"
+            android:layout_width = "100dp"
+            android:layout_height = "30dp"
+            android:text="Example"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_column="3"
+            android:layout_marginTop="25dp"
+
+            />
+
+        <TextView
+            android:id="@+id/Point_Cost"
+            android:layout_height="30dp"
+            android:layout_width="30dp"
+            android:text="65"
+            android:layout_gravity="top"
+            android:layout_column="4"
+            android:layout_marginTop="25dp"
+            android:gravity="center_horizontal|center_vertical"
+            />
+
+        <TextView
+            android:id="@+id/Score"
+            android:layout_height="50dp"
+            android:layout_width="100dp"
+            android:text="Score"
+            android:layout_gravity="center|center_horizontal"
+            android:layout_column="5"
+            android:layout_marginTop="5dp"/>
+    </TableRow>
+</TableLayout>
