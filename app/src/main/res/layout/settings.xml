@@ -12,44 +12,46 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:id="@+id/textView"
+android:elegantTextHeight="true"
+        android:textColor="#3151a3"
+        android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
 
 
-    <TextView
-        android:text="Location"
-        android:typeface="serif"
-        android:textStyle="bold"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView3"
-        android:textAppearance="@style/TextAppearance.AppCompat.Button"
-        android:textSize="18sp"/>
 
-    <Space
-        android:layout_width="1dp"
-        android:layout_height="30dp"/>
 
     <TextView
-        android:text="Skills I Have"
+        android:text="Skills I Have:"
         android:textStyle="bold"
         android:typeface="serif"
+        android:textColor="#3151a3"
+
+        android:elegantTextHeight="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView2"
+        android:textColorHighlight="#d22d2d"
+
         android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textAlignment="center"
         android:textSize="18sp"/>
 
     <ListView
         android:layout_width="wrap_content"
         android:layout_height="190dp"
+        android:textColor="#3151a3"
+
         android:id="@+id/listedskills"></ListView>
 
 
     <TextView
         android:text="Prefered Platform"
         android:textStyle="bold"
+        android:textAlignment="center"
         android:typeface="serif"
+        android:textColor="#3151a3"
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView4"
@@ -59,7 +61,9 @@
     <CheckBox
         android:text="In Person (Individual)"
         android:typeface="serif"
-        android:layout_width="match_parent"
+        android:layout_width="258dp"
+        android:textColor="#3151a3"
+
         android:layout_height="wrap_content"
         android:textSize="18sp"
         android:id="@+id/checkBox" />
@@ -71,6 +75,8 @@
         android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:id="@+id/checkBox3"
+        android:textColor="#3151a3"
+
         android:textSize="18sp"/>
 
     <CheckBox
@@ -79,6 +85,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/checkBox2"
+        android:textColor="#3151a3"
+
         android:textSize="18sp"/>
 
     <Space
@@ -86,7 +94,7 @@
         android:layout_height="30dp"/>
 
     <Switch
-        android:text="Notification"
+        android:text="Notifications"
         android:textStyle="bold"
         android:typeface="serif"
         android:layout_width="match_parent"
