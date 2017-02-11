@@ -1,12 +1,19 @@
 package com.example.micha_000.skilz;
 
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
+import android.support.v7.widget.ToolbarWidgetWrapper;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.SearchView;
 
@@ -19,7 +26,10 @@ public class Main extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_main);
+
+
         ListView lv = (ListView)findViewById(R.id.listViewCountry);
         ArrayList<String> arrayCountry = new ArrayList<>();
         arrayCountry.addAll(Arrays.asList(getResources().getStringArray(R.array.array_skills)));
@@ -29,6 +39,15 @@ public class Main extends AppCompatActivity {
                 android.R.layout.simple_list_item_1,
                 arrayCountry);
         lv.setAdapter(adapter);
+
+        Button button = (Button) findViewById(R.id.Settings_button);
+        button.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+             Intent i = new Intent(getApplicationContext(),settings.class);
+                startActivity(i);
+
+            }
+        });
     }
 
     @Override

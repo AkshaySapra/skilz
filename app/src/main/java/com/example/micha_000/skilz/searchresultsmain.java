@@ -16,8 +16,8 @@ public class searchresultsmain extends AppCompatActivity {
     };
 
     Integer[] imageId = {
-            R.drawable.erik,
-            R.drawable.pav
+           // R.drawable.erik,
+           // R.drawable.pav
     };
     String[] score = {
             "45",
