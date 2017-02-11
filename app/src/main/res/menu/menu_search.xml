@@ -8,4 +8,9 @@ pu<?xml version="1.0" encoding="utf-8"?>
         app:actionViewClass="android.widget.SearchView"
         app:showAsAction="always"
         ></item>
+    <item android:id="@+id/settings_gear"
+        android:title="Settings"
+        android:icon="@android:drawable/ic_menu_preferences"
+        app:showAsAction="always"
+        ></item>
 </menu>

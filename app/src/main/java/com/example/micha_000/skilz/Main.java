@@ -45,13 +45,7 @@ public class Main extends AppCompatActivity {
         lv.setAdapter(adapter);
 
 
-        Button button = (Button) findViewById(R.id.Settings_button);
-        button.setOnClickListener(new View.OnClickListener() {
-                                      public void onClick(View v) {
-                                          Intent i = new Intent(getApplicationContext(), settings.class);
-                                          startActivity(i);
-                                      }
-                                  });
+       
 
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -89,5 +83,16 @@ public class Main extends AppCompatActivity {
 
 
         return super.onCreateOptionsMenu(menu);
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem menuItem){
+        switch(menuItem.getItemId()){
+            case R.id.settings_gear:
+                Intent i = new Intent(getApplicationContext(),settings.class);
+                startActivity(i);
+                return true;
+            default:
+                return super.onOptionsItemSelected(menuItem);
+        }
     }
 }
