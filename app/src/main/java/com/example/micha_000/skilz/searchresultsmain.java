@@ -12,20 +12,22 @@ public class searchresultsmain extends AppCompatActivity {
     ListView list;
     String[] web = {
             "Erik",
-            "Pav",
+     //       "Pav",
     };
 
     Integer[] imageId = {
+
            // R.drawable.erik,
+
            // R.drawable.pav
     };
     String[] score = {
-            "45",
-            "66"
+           "45",
+     //       "66"
     };
     String[] cost = {
-            "5",
-            "7"
+           "5",
+    //        "7"
     };
 
     @Override
