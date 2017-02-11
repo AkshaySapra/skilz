@@ -40,9 +40,11 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Button"
         android:textSize="18sp"/>
 
-    <Space
-        android:layout_width="1dp"
-        android:layout_height="30dp"/>
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="190dp"
+        android:id="@+id/listedskills"></ListView>
+
 
     <TextView
         android:text="Prefered Platform"

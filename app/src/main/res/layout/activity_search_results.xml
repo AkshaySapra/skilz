@@ -10,7 +10,13 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.micha_000.skilz.SearchResults">
 
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:text="Fav."
+        android:"@id/favtext"/>
     <ListView
+        android:layout_below="@id/favtext"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:id="@+id/list"
