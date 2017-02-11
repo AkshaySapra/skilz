@@ -4,22 +4,18 @@ package com.example.micha_000.skilz;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-<<<<<<< HEAD
+
 import android.support.v7.widget.Toolbar;
 import android.support.v7.widget.ToolbarWidgetWrapper;
-=======
+
 import android.util.Log;
->>>>>>> b5805afa09fbe66950f563f3ba2a11bd37b1639d
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-<<<<<<< HEAD
 import android.view.Window;
 import android.view.WindowManager;
-=======
 import android.widget.AdapterView;
->>>>>>> b5805afa09fbe66950f563f3ba2a11bd37b1639d
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
