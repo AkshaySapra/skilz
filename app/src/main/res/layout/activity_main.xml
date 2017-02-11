@@ -18,10 +18,5 @@
         android:layout_height="450dp"
         android:id="@+id/listViewCountry"
         android:layout_weight="1" />
-    <Button
-        android:layout_below="@id/listViewCountry"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Settings"
-        android:id="@+id/Settings_button"/>
+
 </RelativeLayout>
